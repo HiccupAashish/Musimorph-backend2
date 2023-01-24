@@ -85,5 +85,4 @@ test:
 production:
   <<: *default
   database: musimorph_backend_production
-  username: hiccup
-  password: 5683.Love
+  adapter: 'postgresql'

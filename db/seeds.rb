@@ -26,7 +26,7 @@ data=[
     }
 ]
 i=0
-while data.length>i 
-    Soundobject.create(data[i])
+while 3>i 
+    Soundobjectlist.create(data[i])
     i=i+1;
 end
